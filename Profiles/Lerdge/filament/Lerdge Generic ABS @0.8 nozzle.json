@@ -1,0 +1,12 @@
+{
+    "type": "filament",
+    "filament_id": "GFB001_LERDGE_08",
+    "setting_id": "GFB001_LERDGE_08",
+    "name": "Lerdge Generic ABS @0.8 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Lerdge Generic ABS @base",
+    "compatible_printers": [
+        "Lerdge iX (0.8 nozzle)"
+    ]
+}

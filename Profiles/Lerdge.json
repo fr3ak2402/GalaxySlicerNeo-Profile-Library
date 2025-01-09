@@ -1,0 +1,158 @@
+{
+    "name": "Lerdge",
+    "version": "01.01.00.00",
+    "force_update": "0",
+    "description": "Lerdge configurations",
+    "machine_model_list": [
+        {
+            "name": "Lerdge iX",
+            "sub_path": "machine/Lerdge iX.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_lerdge_common",
+            "sub_path": "process/fdm_process_lerdge_common.json"
+        },
+        {
+            "name": "0.15mm Optimal @Lerdge iX (0.2 nozzle)",
+            "sub_path": "process/0.15mm Optimal @Lerdge iX (0.2 nozzle).json"
+        },
+        {
+            "name": "0.15mm Optimal @Lerdge iX (0.4 nozzle)",
+            "sub_path": "process/0.15mm Optimal @Lerdge iX (0.4 nozzle).json"
+        },
+        {
+            "name": "0.15mm Optimal @Lerdge iX (0.6 nozzle)",
+            "sub_path": "process/0.15mm Optimal @Lerdge iX (0.6 nozzle).json"
+        },
+        {
+            "name": "0.15mm Optimal @Lerdge iX (0.8 nozzle)",
+            "sub_path": "process/0.15mm Optimal @Lerdge iX (0.8 nozzle).json"
+        },
+        {
+            "name": "0.20mm Standard @Lerdge iX (0.2 nozzle)",
+            "sub_path": "process/0.20mm Standard @Lerdge iX (0.2 nozzle).json"
+        },
+        {
+            "name": "0.20mm Standard @Lerdge iX (0.4 nozzle)",
+            "sub_path": "process/0.20mm Standard @Lerdge iX (0.4 nozzle).json"
+        },
+        {
+            "name": "0.20mm Standard @Lerdge iX (0.6 nozzle)",
+            "sub_path": "process/0.20mm Standard @Lerdge iX (0.6 nozzle).json"
+        },
+        {
+            "name": "0.20mm Standard @Lerdge iX (0.8 nozzle)",
+            "sub_path": "process/0.20mm Standard @Lerdge iX (0.8 nozzle).json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_abs",
+            "sub_path": "filament/fdm_filament_abs.json"
+        },
+        {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        },
+        {
+            "name": "Lerdge Generic PLA @base",
+            "sub_path": "filament/Lerdge Generic PLA @base.json"
+        },
+        {
+            "name": "Lerdge Generic PLA @0.8 nozzle",
+            "sub_path": "filament/Lerdge Generic PLA @0.8 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PLA @0.6 nozzle",
+            "sub_path": "filament/Lerdge Generic PLA @0.6 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PLA @0.4 nozzle",
+            "sub_path": "filament/Lerdge Generic PLA @0.4 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PLA @0.2 nozzle",
+            "sub_path": "filament/Lerdge Generic PLA @0.2 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PETG @base",
+            "sub_path": "filament/Lerdge Generic PETG @base.json"
+        },
+        {
+            "name": "Lerdge Generic PETG @0.8 nozzle",
+            "sub_path": "filament/Lerdge Generic PETG @0.8 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PETG @0.6 nozzle",
+            "sub_path": "filament/Lerdge Generic PETG @0.6 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PETG @0.4 nozzle",
+            "sub_path": "filament/Lerdge Generic PETG @0.4 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic PETG @0.2 nozzle",
+            "sub_path": "filament/Lerdge Generic PETG @0.2 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic ABS @base",
+            "sub_path": "filament/Lerdge Generic ABS @base.json"
+        },
+        {
+            "name": "Lerdge Generic ABS @0.8 nozzle",
+            "sub_path": "filament/Lerdge Generic ABS @0.8 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic ABS @0.6 nozzle",
+            "sub_path": "filament/Lerdge Generic ABS @0.6 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic ABS @0.4 nozzle",
+            "sub_path": "filament/Lerdge Generic ABS @0.4 nozzle.json"
+        },
+        {
+            "name": "Lerdge Generic ABS @0.2 nozzle",
+            "sub_path": "filament/Lerdge Generic ABS @0.2 nozzle.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_lerdge_common",
+            "sub_path": "machine/fdm_lerdge_common.json"
+        },
+        {
+            "name": "Lerdge iX (0.2 nozzle)",
+            "sub_path": "machine/Lerdge iX (0.2 nozzle).json"
+        },
+        {
+            "name": "Lerdge iX (0.4 nozzle)",
+            "sub_path": "machine/Lerdge iX (0.4 nozzle).json"
+        },
+        {
+            "name": "Lerdge iX (0.6 nozzle)",
+            "sub_path": "machine/Lerdge iX (0.6 nozzle).json"
+        },
+        {
+            "name": "Lerdge iX (0.8 nozzle)",
+            "sub_path": "machine/Lerdge iX (0.8 nozzle).json"
+        }
+    ]
+}

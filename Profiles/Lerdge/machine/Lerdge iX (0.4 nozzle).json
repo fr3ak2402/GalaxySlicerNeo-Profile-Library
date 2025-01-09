@@ -1,0 +1,23 @@
+{
+    "type": "machine",
+    "setting_id": "GM001_LERDGE_04",
+    "name": "Lerdge iX (0.4 nozzle)",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_lerdge_common",
+    "printer_model": "Lerdge iX",
+    "default_filament_profile": [
+        "Lerdge Generic PLA @0.4 nozzle"
+    ],
+    "default_print_profile": "0.20mm Standard @Lerdge iX (0.4 nozzle)",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "printable_area": [
+        "0x0",
+        "170x0",
+        "170x170",
+        "0x170"
+    ],
+    "printable_height": "180"
+}

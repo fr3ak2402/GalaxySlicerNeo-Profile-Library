@@ -1,0 +1,12 @@
+{
+    "type": "filament",
+    "filament_id": "GFB002_LERDGE_04",
+    "setting_id": "GFB002_LERDGE_04",
+    "name": "Lerdge Generic PETG @0.4 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Lerdge Generic PETG @base",
+    "compatible_printers": [
+        "Lerdge iX (0.4 nozzle)"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type": "filament",
+    "filament_id": "GFB003_LERDGE_04",
+    "setting_id": "GFB003_LERDGE_04",
+    "name": "Lerdge Generic PLA @0.4 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Lerdge Generic PLA @base",
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "compatible_printers": [
+        "Lerdge iX (0.4 nozzle)"
+    ]
+}

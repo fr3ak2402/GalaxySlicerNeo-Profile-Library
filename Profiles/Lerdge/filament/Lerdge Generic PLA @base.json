@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "filament_id": "GFB003_LERDGE",
+    "name": "Lerdge Generic PLA @base",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_filament_pla",
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "filament",
+    "filament_id": "GFB003_LERDGE_06",
+    "setting_id": "GFB003_LERDGE_06",
+    "name": "Lerdge Generic PLA @0.6 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Lerdge Generic PLA @base",
+    "compatible_printers": [
+        "Lerdge iX (0.6 nozzle)"
+    ]
+}

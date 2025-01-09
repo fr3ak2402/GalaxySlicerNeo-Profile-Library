@@ -1,0 +1,98 @@
+{
+    "type": "machine",
+    "name": "fdm_lerdge_common",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_machine_common",
+    "machine_max_acceleration_e": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "2500",
+        "1250"
+    ],
+    "machine_max_acceleration_retracting": [
+        "2500",
+        "1250"
+    ],
+    "machine_max_acceleration_travel": [
+        "1500",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "2000",
+        "1000"
+    ],
+    "machine_max_acceleration_y": [
+        "2000",
+        "1000"
+    ],
+    "machine_max_acceleration_z": [
+        "500",
+        "200"
+    ],
+    "machine_max_speed_e": [
+        "200",
+        "120"
+    ],
+    "machine_max_speed_x": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "40",
+        "12"
+    ],
+    "machine_max_jerk_e": [
+        "10",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "10",
+        "10"
+    ],
+    "machine_max_jerk_y": [
+        "10",
+        "10"
+    ],
+    "machine_max_jerk_z": [
+        "0.2",
+        "0.4"
+    ],
+    "machine_min_extruding_rate": [
+        "0",
+        "0"
+    ],
+    "machine_min_travel_rate": [
+        "0",
+        "0"
+    ],
+    "max_layer_height": [
+        "0.32"
+    ],
+    "extruder_clearance_radius": "47",
+    "extruder_clearance_height_to_rod": "34",
+    "extruder_clearance_height_to_lid": "34",
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "z_hop": [
+        "0.4"
+    ],
+    "single_extruder_multi_material": "1",
+    "machine_pause_gcode": "M601 ;pause print",
+    "bed_exclude_area": [
+        "0x0"
+    ],
+    "machine_start_gcode": "M104 S[nozzle_temperature_initial_layer];set hothead temperature\nM190 S[bed_temperature_initial_layer];set hotbed temperature and wait fot it to be reached\nG28 ; home all axes\nG1 Z5 F5000 ; lift nozzle\nM109 S[nozzle_temperature_initial_layer];set hothead temperature and wait for it to be reached\nG21 ; set units to millimeters\nG90 ; use absolute coordinates\nM82 ; use absolute distances for extrusion\nG92 E0\nG0 X2.000 Y2.000 Z[initial_layer_print_height] F6000.000\nG1 X100.000 E15.000 F1000.000",
+    "machine_end_gcode": "M104 S0 ; turn off temperature\nG28 X Y ; home X axis\nM18 ; disable motors\n",
+    "layer_change_gcode": "",
+    "scan_first_layer": "0",
+    "nozzle_type": "undefine",
+    "auxiliary_fan": "0"
+}

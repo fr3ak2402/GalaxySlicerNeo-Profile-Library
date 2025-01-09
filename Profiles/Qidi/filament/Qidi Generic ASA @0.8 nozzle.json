@@ -1,0 +1,18 @@
+{
+    "type": "filament",
+    "filament_id": "GFB002_QIDI_08",
+    "setting_id": "GFB002_QIDI_08",
+    "name": "Qidi Generic ASA @0.8 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Qidi Generic ASA @base",
+    "compatible_printers": [
+        "Qidi X-Plus (0.8 nozzle)",
+        "Qidi X-Max (0.8 nozzle)",
+        "Qidi X-CF Pro (0.8 nozzle)",
+        "Qidi X-Smart 3 (0.8 nozzle)",
+        "Qidi X-Plus 3 (0.8 nozzle)",
+        "Qidi X-Max 3 (0.8 nozzle)",
+		"Qidi I-Fast (0.8 nozzle)"
+    ]
+}

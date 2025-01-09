@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "filament_id": "GFB005_QIDI",
+    "name": "Qidi Generic PC @base",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_filament_pc",
+    "filament_max_volumetric_speed": [
+        "16"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ]
+}
